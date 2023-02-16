@@ -18,21 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ken's Site of Memories
-email: "no-reply@eriksonss.fi"
+title: Ken's Dev Projects
+email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  The website of Ken Erikson and all my intriguing projects. The memoars of a backend dev.
-#domain: "erikson.fi"
+  The website of Ken Erikson and all my personal projects. The memoars of a backend dev.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://erikson.fi" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
 github_username:  KenErikson
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +50,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+author: "Ken Erikson"
+
+social_links:
+  - { platform: github,         user_url: "https://github.com/KenErikson" }
