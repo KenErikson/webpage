@@ -17,4 +17,4 @@ Feel free to free to follow this however you want. For something more concrete I
         document.getElementById("likes").innerHTML = likes;
     };
 </script>
-<button type="button" onclick="like()" style="padding: 8px"><i class="fa fa-thumbs-up"></i> <i id="likes">-2</i></button>
+<button type="button" onclick="like()" style="padding: 8px; background: #fdfdfd;"><i class="fa fa-thumbs-up"></i> <i id="likes">-2</i></button>

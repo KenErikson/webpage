@@ -10,7 +10,7 @@
           <ul class="contact-list">
             <li class="p-name">
               {%- if site.author -%}
-                {{ site.author | escape }}
+                By {{ site.author | escape }}
               {%- else -%}
                 {{ site.title | escape }}
               {%- endif -%}
@@ -31,5 +31,4 @@
       </div>
   
     </div>
-    {%- include google-analytics.html -%}
   </footer>
