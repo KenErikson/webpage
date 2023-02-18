@@ -6,3 +6,7 @@ layout: home
 ---
 
 Blank Slate
+
+
+
+I'll probably start with an android app or something, wonder how to make one that doesn't break too quickly and preferrable doesn't look like it is my first app.
