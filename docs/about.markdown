@@ -10,4 +10,11 @@ Let's talk about the ideas for projects, the mythical essence that exist prefect
 
 Feel free to free to follow this however you want. For something more concrete I'll even add a like button here that counts downwards, because that's what this is all about.
 
-TODO actually make that sad button
+<script type="text/javascript">
+    var likes = -2;
+    function like() {
+        likes -= 1;
+        document.getElementById("likes").innerHTML = likes;
+    };
+</script>
+<button type="button" onclick="like()" style="padding: 8px"><i class="fa fa-thumbs-up"></i> <i id="likes">-2</i></button>

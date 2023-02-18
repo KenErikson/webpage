@@ -27,6 +27,7 @@ url: "https://blog.erikson.fi" # the base hostname & protocol for your site, e.g
 github_username:  KenErikson
 linkedin_username:  KenErikson
 author: "Ken Erikson"
+google_analytics: "G-YG176SSJ6C"
 
 # Build settings
 theme: minima
