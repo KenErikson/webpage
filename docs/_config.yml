@@ -21,10 +21,12 @@
 title: Ken's Dev Projects
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  The website of Ken Erikson and all my personal projects. The memoars of a backend dev.
+  The website of Ken Erikson and all my personal projects. The frontends will be created by a backend dev.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://erikson.fi" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.erikson.fi" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  KenErikson
+linkedin_username:  KenErikson
+author: "Ken Erikson"
 
 # Build settings
 theme: minima
@@ -51,7 +53,3 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-author: "Ken Erikson"
-
-social_links:
-  - { platform: github,         user_url: "https://github.com/KenErikson" }
